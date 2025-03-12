@@ -1,0 +1,21 @@
+{
+  "id": 73,
+  "description": "Convert a binary string to decimal",
+  "methodName": "binaryToDecimal",
+  "paramNames": [
+    "sypet_arg0"
+  ],
+  "srcTypes": [
+      "java.lang.String"
+  ],
+  "tgtType": "java.lang.String",
+  "packages": [
+      "java.lang.Integer"
+  ],
+  "libs": [
+	"./lib/rt7.jar",
+	"./lib/nonapi1.0.jar",
+	"./lib/constants.jar"
+  ],
+  "testPath": "benchmarks/google_nonAPI/73/TestSource.java"
+}

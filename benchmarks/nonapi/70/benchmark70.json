@@ -1,0 +1,23 @@
+{
+  "id": 70,
+  "description": "Get which month is the month",
+  "methodName": "getNowMonth",
+    "paramNames": [
+    "sypet_arg0",
+	"sypet_arg1"
+  ],
+  "srcTypes": [
+      "java.util.Date",
+      "int"
+  ],
+  "tgtType": "int",
+  "packages": [
+    "java.util.Calendar"
+  ],
+  "libs": [
+    "./lib/rt7.jar",
+    "./lib/nonapi1.0.jar",
+    "./lib/constants.jar"
+  ],
+  "testPath": "benchmarks/google_nonAPI/70/TestSource.java"
+}

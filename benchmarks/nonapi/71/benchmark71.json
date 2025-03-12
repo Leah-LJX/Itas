@@ -1,0 +1,23 @@
+{
+  "id": 71,
+  "description": "Calculate the time difference between two dates",
+  "methodName": "dateSubtraction",
+    "paramNames": [
+    "sypet_arg0",
+	"sypet_arg1"
+  ],
+  "srcTypes": [
+      "java.util.Date",
+      "java.util.Date"
+  ],
+  "tgtType": "long",
+  "packages": [
+    "java.util.Date"
+  ],
+  "libs": [
+    "./lib/rt7.jar",
+    "./lib/nonapi1.0.jar",
+    "./lib/constants.jar"
+  ],
+  "testPath": "benchmarks/google_nonAPI/71/TestSource.java"
+}

@@ -1,0 +1,23 @@
+{
+  "id": 65,
+  "description": "Determine which day of the week a given date is",
+  "methodName": "getDayOfWeek",
+    "paramNames": [
+    "sypet_arg0",
+	"sypet_arg1"
+  ],
+  "srcTypes": [
+    "java.util.Date",
+	"int"
+  ],
+  "tgtType": "int",
+  "packages": [
+    "java.util.Calendar"
+  ],
+  "libs": [
+    "./lib/rt7.jar",
+    "./lib/nonapi1.0.jar",
+    "./lib/constants.jar"
+  ],
+  "testPath": "benchmarks/google_nonAPI/65/TestSource.java"
+}

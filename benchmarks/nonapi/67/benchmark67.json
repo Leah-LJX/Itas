@@ -1,0 +1,21 @@
+{
+  "id": 67,
+  "description": "Get the perimeter value of a rectangle",
+  "methodName": "getPerimeter",
+    "paramNames": [
+    "sypet_arg0"
+  ],
+  "srcTypes": [
+    "java.awt.geom.Rectangle2D"
+  ],
+  "tgtType": "double",
+  "packages": [
+    "java.awt.geom"
+  ],
+  "libs": [
+    "./lib/rt7.jar",
+    "./lib/nonapi1.0.jar",
+    "./lib/constants.jar"
+  ],
+  "testPath": "benchmarks/google_nonAPI/67/TestSource.java"
+}

@@ -1,0 +1,21 @@
+{
+  "id": 74,
+  "description": "Check if String is empty or null",
+  "methodName": "isNullOrEmpty",
+  "paramNames": [
+    "sypet_arg0"
+  ],
+  "srcTypes": [
+    "java.lang.String"
+  ],
+  "tgtType": "boolean",
+  "packages": [
+     "java.lang.String"
+  ],
+  "libs": [
+	"./lib/rt7.jar",
+	"./lib/nonapi1.0.jar",
+        "./ib/constants.jar"
+  ],
+  "testPath": "benchmarks/google_nonAPI/74/TestSource.java"
+}

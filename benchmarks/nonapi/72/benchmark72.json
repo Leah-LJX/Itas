@@ -1,0 +1,24 @@
+{
+  "id": 72,
+  "description": "Check whether a character is alphabet or not",
+  "methodName": "isAlphabet",
+    "paramNames": [
+    "sypet_arg0",
+	"sypet_arg1",
+	"sypet_arg2"
+  ],
+  "srcTypes": [
+      "char",
+      "char",
+      "char"
+  ],
+  "tgtType": "boolean",
+  "packages": [
+      ""
+  ],
+  "libs": [
+      "./lib/nonapi1.0.jar",
+      "./lib/constants.jar"
+  ],
+  "testPath": "benchmarks/google_nonAPI/72/TestSource.java"
+}
